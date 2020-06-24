@@ -1,0 +1,50 @@
+{
+    // default sapcing based on file type
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        
+    },
+    // general settings
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true, // side mini map
+    "workbench.iconTheme": "vscode-icons", // icon theme
+    "window.menuBarVisibility": "toggle", // window top bar
+    "workbench.activityBar.visible": true, // left side bar
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 0,
+
+    //bracket pair colorizer
+    "bracket-pair-colorizer-2.colors": [
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    
+    // Python linting config
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402"
+    ],
+
+    // Rust settings
+    // Allow multiple projects
+    "rust-client.enableMultiProjectSetup": true,
+    "python.formatting.provider": "autopep8",
+    // zen mode
+    "zenMode.centerLayout": false,
+    "zenMode.hideTabs": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "workbench.colorTheme": "Night Owl",
+    "java.semanticHighlighting.enabled": true,
+}
