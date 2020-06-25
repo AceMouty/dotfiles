@@ -1,0 +1,46 @@
+# Reload functions
+#super + Escape
+#	"$XDG_CONFIG_HOME"/sxhkd/functions
+
+# Reload config
+super + Escape
+  pkill -USR1 -x sxhkd
+
+# Basic programs
+
+super + l
+  betterlockscreen -l
+
+mod1 + shift + Print
+  maim -s | tee Pictures/ScreenShots/$(date +%b%d::%H%M%S).png | xclip -selection clipboard -t image/png
+
+mod1 + Print
+  maim -s | xclip -selection clipboard -t image/png
+
+mod1 + Return
+  alacritty
+
+mod1 + d
+  dmenu_run
+
+mod1 + r
+  ranger
+
+# Fn keys
+
+# Screen Brightness
+XF86MonBrightnessUp
+  xbacklight -inc 10
+
+XF86MonBrightnessDown
+  xbacklight -dec 10
+
+# Volume Controls
+XF86AudioRaiseVolume
+  amixer -q sset Master 3%+
+
+XF86AudioLowerVolume
+  amixer -q sset Master 3%-
+
+XF86AudioMute
+  amixer -q sset Master toggle

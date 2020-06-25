@@ -1,0 +1,44 @@
+
+
+X.Org X Server 1.20.8
+X Protocol Version 11, Revision 0
+Build Operating System: Linux Arch Linux
+Current Operating System: Linux ThinkTank 5.4.47-1-lts #1 SMP Wed, 17 Jun 2020 19:42:02 +0000 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-lts root=UUID=90c92c5d-c133-49da-9512-5ffd6dae67c2 rw loglevel=3 quiet
+Build Date: 05 May 2020  05:08:17AM
+ 
+Current version of pixman: 0.40.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/home/kyle/.local/share/xorg/Xorg.0.log", Time: Fri Jun 19 12:11:42 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+spectrwm: Welcome to spectrwm V3.3.0 Build: 3.3.0
+/usr/bin/dmenu_run
+/usr/bin/xterm
+spectrwm: Unable to load charset(s):
+spectrwm: ISO8859-1
+spectrwm: ISO8859-1
+spectrwm: ISO8859-2
+spectrwm: ISO8859-3
+spectrwm: ISO8859-4
+spectrwm: ISO8859-5
+spectrwm: KOI8-R
+spectrwm: ISO8859-7
+spectrwm: ISO8859-9
+spectrwm: ISO8859-13
+spectrwm: ISO8859-14
+spectrwm: ISO8859-15
+spectrwm: JISX0208.1983-0
+spectrwm: KSC5601.1987-0
+spectrwm: GB2312.1980-0
+spectrwm: JISX0201.1976-0
+spectrwm: ISO10646-1
+spectrwm: Error creating font set structure.
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
