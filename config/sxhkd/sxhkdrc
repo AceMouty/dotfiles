@@ -6,7 +6,7 @@
 super + Escape
   pkill -USR1 -x sxhkd
 
-# Basic programs
+# Basic programs {{
 
 super + l
   betterlockscreen -l
@@ -15,18 +15,25 @@ mod1 + shift + Print
   maim -s | tee Pictures/ScreenShots/$(date +%b%d::%H%M%S).png | xclip -selection clipboard -t image/png
 
 mod1 + Print
-  maim -s | xclip -selection clipboard -t image/png
+ maim -s | xclip -selection clipboard -t image/png
 
 mod1 + Return
   alacritty
 
 mod1 + d
-  dmenu_run
+ dmenu_run -fn "Operator Mono Nerd Font-16" 
 
 mod1 + r
-  ranger
+  alacritty -e ranger
 
-# Fn keys
+mod1 + p
+  spacefm
+
+super + p
+  pavucontrol
+
+# }}
+
 
 # Screen Brightness
 XF86MonBrightnessUp
@@ -35,12 +42,9 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
   xbacklight -dec 10
 
-# Volume Controls
-XF86AudioRaiseVolume
-  amixer -q sset Master 3%+
+# Volume Keys
+super + {Up,Down}
+  pamixer {-i,-d} 10
 
-XF86AudioLowerVolume
-  amixer -q sset Master 3%-
-
-XF86AudioMute
-  amixer -q sset Master toggle
+super + m
+  pamixer -t

@@ -207,37 +207,27 @@ font:
   #indexed_colors: []
   # Colors (Night Owl by Sarah Drasner)
 colors:
-  # Default colors
-  primary:
-    background: '0x011627'
-    foreground: '0xd6deeb'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0xffffff'
-    cursor: '0x7e57c2'
-
-  # Normal colors
-  normal:
-    black:   '0x000000'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xaddb67'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x21c7a8'
-    white:   '0xffffff'
-
-  # Bright colors
   bright:
-    black:   '0x575656'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xffeb95'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x7fdbca'
-    white:   '0xffffff'
+    black: '0x282c34'
+    blue: '0x7cb7ff'
+    cyan: '0x00c1e4'
+    green: '0x71f79f'
+    magenta: '0xc74ded'
+    red: '0xed254e'
+    white: '0xdcdfe4'
+    yellow: '0xf9dc5c'
+  normal:
+    black: '0x282c34'
+    blue: '0x7cb7ff'
+    cyan: '0x00c1e4'
+    green: '0x71f79f'
+    magenta: '0xc74ded'
+    red: '0xed254e'
+    white: '0xdcdfe4'
+    yellow: '0xf9dc5c'
+  primary:
+    background: '0x161925'
+    foreground: '0xc3c7d1'
 
 # Visual Bell
 #
