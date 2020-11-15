@@ -55,4 +55,5 @@ fi
 #exec xterm -geometry 80x66+0+0 -name login
 feh --bg-fill $HOME/Pictures/wallpapers/void-dark.png
 xmodmap $HOME/.xmodmap
+exec dbus-run-session pulseaudio &
 exec i3

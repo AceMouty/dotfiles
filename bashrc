@@ -17,3 +17,11 @@ neofetch
 # fnm
 export PATH=/home/ace/.local/bin:$PATH
 eval "`fnm env`"
+
+NPM_PACKAGES="${HOME}/.npm-packages"
+
+export PATH="$PATH:$NPM_PACKAGES/bin"
+
+# fzf
+source /usr/share/fzf/completion.bash
+source /usr/share/fzf/key-bindings.bash
